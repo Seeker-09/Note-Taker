@@ -26,7 +26,7 @@ router.post("/notes", (req, res) => {
                 (writeErr) => 
                     writeErr
                     ? console.error(writeErr)
-                    : console.info("Success")
+                : console.info("Success")
             )
         }
     })
